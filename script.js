@@ -19,7 +19,7 @@ document.getElementById('upgrade1').addEventListener('click', () => {
         clickValue += 1;
         updateScore();
     } else {
-        alert('Not enough points for Upgrade 1!');
+        alert('Мало огней для апгрейда 1 уровня!');
     }
 });
 
@@ -29,6 +29,6 @@ document.getElementById('upgrade2').addEventListener('click', () => {
         clickValue += 5;
         updateScore();
     } else {
-        alert('Not enough points for Upgrade 2!');
+        alert('Мало огней для апгрейда 2 уровня!');
     }
 });
